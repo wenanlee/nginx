@@ -1,0 +1,1 @@
+docker run --name website -v $PWD/log:/var/log/nginx -v $PWD/conf:/etc/nginx/conf.d -p 80:80 -d wenan/nginx
